@@ -1,69 +1,85 @@
 <!--
-  This is the repo `ghostON3/ghostON3` — GitHub renders this README on the
-  profile page. Create the repo with the exact name `ghostON3`, push this file.
+  Repo `ghostON3/ghostON3` — GitHub renders this on the profile page.
+  Every image/link below is committed in this public repo or points at a
+  public repo, so it resolves for anyone. No private links, no vibe.
 -->
 
 # Michal — `ghostON3`
 
-I build systems end to end and I don't stop at the part most people call "done."
-Event-sourced backends, a Rust voice + window-manager substrate, a browser
-extension, a desktop app, a mobile app and a TV app — frequently the *same*
-product across all of them, from one codebase. Polyglot by necessity, not for
-the résumé line.
+> I am god in my repository.
 
-I run an autonomous "dark factory" of AI agents against my own monorepo: a
-queue, leases, heartbeats, hash-chained event logs, and lint rules that fail the
-build instead of nagging in review. Thousands of PRs have shipped through it.
-The interesting engineering isn't any one feature — it's the machine that keeps
-a fleet of agents honest without a human as the router.
+Not a slogan — an operating model. I don't just write code; I run a small
+**world**: a 3,000-note knowledge vault, an autonomous fleet of AI agents that
+ship against my own monorepo, and products that reach across web, desktop,
+mobile, TV and the browser. The frame below has **five angles**. Every one
+resolves to something you can open and inspect — a live repo, a committed
+screenshot, a real count. Proof, not adjectives.
 
-```
-Daily driver:  Arch Linux · Hyprland (Wayland) · tmux · neovim-adjacent · kitty
-Languages:     TypeScript · Rust · Python · SQL · Bash
-Surfaces:      web · desktop (Tauri/Electron) · mobile (React Native/Expo)
-               TV (React Native tvOS) · browser extension (MV3) · CLI daemons
-Backbone:      event sourcing · hash-chain integrity · CQRS-ish reducers
-               Postgres/Drizzle · BullMQ/Redis · NestJS/Fastify · k3s/Helm/GitOps
-Infra:         self-hosted first — k3s homelab, sealed-secrets, Grafana +
-               VictoriaMetrics, Pino + prom-client, OpenTelemetry
-```
+Polyglot (TypeScript · Rust · Python · SQL · Bash), local-first, sovereign by
+default. Done = a capability proven end-to-end and live — never `tsc`-green
+theatre.
 
-## What I actually do, with proof
+---
 
-- **Architecture that's enforced, not documented.** I encode decisions as
-  static-analysis rules so they can't rot: no wall-clock reads in domain logic,
-  no `process.env` reaching into a method, never lose the original error in a
-  re-throw. → [`eslint-plugin-ghost`](https://github.com/ghostON3/eslint-plugin-ghost)
-  (11 rules, 94 tests).
-- **Event sourcing done properly.** Append-only log, deterministic replay,
-  tamper detection via a per-record hash chain — a "truthkeeper" canary runs in
-  CI from line zero. → `elo-evolution-showcase`.
-- **Systems software in Rust.** A long-running per-app focus tracker that reads
-  Hyprland IPC and writes SQLite; a local voice substrate (STT/TTS over a UNIX
-  socket). Low-overhead daemons where a GC'd runtime would be the wrong tool.
-  → `elo-time-tracker`, `voice-hub`.
-- **One product, every surface.** A single TypeScript monorepo with thin
-  platform shells — `apps/{web,desktop,mobile,extension,vscode-extension}` plus
-  Rust `hyprland-bridge` and a scraper pool — sharing one core package so
-  schema drift between front and back is structurally impossible.
-- **My workstation is code.** Months-tuned Arch + Hyprland: monitor-aware
-  workspaces, a scratchpad that remembers where windows came from, audible
-  feedback on every commit. → [`ghost-dotfiles`](https://github.com/ghostON3/ghost-dotfiles).
+### 1 · The vault — the substrate I think on
 
-## How I work
+[`assets/vault-map.txt`](assets/vault-map.txt) — **3,265 markdown notes** across
+ten domains (meta, projects, research, infra, journal, archive…), an Obsidian
+graph I've kept for years.
 
-- **Done = proven + consumed, not merely produced.** A feature is done when a
-  user can exercise it end to end and it's live — not when `tsc` is green.
-- **Local-first / sovereign.** The device is the source of truth. Self-host
-  before reaching for someone else's cloud.
-- **Composition over invention.** HTTP, JSON, SQLite, SSE already work — I don't
-  invent a protocol to feel clever.
-- **Honesty over theatre.** If a test fails, I say so with the output. If a
-  thing isn't wired through, it isn't shipped.
+*Why it matters:* every decision, spec and post-mortem is written down and
+queryable — and the agent fleet reads from it. The knowledge isn't in my head
+where it dies; it's a substrate the machines operate on.
 
-## Reach me
+### 2 · The agentic OS — the world I operate
+
+![Fleet atlas](assets/fleet-atlas.png)
+
+Public proof you can run: [`elo-agent-slots`](https://github.com/ghostON3/elo-agent-slots)
+(agents discover their own work from slots) and
+[`elo-evolution-showcase`](https://github.com/ghostON3/elo-evolution-showcase)
+— **2,200+ PRs shipped by an autonomous agent dark factory**.
+
+*Why it matters:* queue, leases, heartbeats, hash-chained event logs and lint
+rules that fail the build. I'm the conductor, not the runtime — the hard part is
+the machine that keeps a fleet of agents honest without a human as the router.
+
+### 3 · Extensions — reach into every surface
+
+![Local-first AI extension](assets/extension-panel.png)
+
+A Manifest-V3 browser extension that captures conversations from every AI
+service and lets you **ask a local Ollama model — prompts never leave the box**.
+
+*Why it matters:* I don't stop at the web app. When a capability needs to live
+in the browser, the editor, the desktop or the OS, I ship it there — local-first,
+no cloud middleman.
+
+### 4 · Music & dopamine experiments — I tune the feel, not just the function
+
+![Dopamine motion curves](assets/dopamine-motion.png)
+
+Spring/jerk-minimized motion profiles from my animation lab, paired with an
+audio-domain track (music-frequency profiling, attention fragmentation, prosody)
+— prototyping reward and attention, measured, not guessed.
+
+*Why it matters:* senior work isn't only correctness. I instrument the dopamine
+loop — how motion and sound land on a human — and treat "does it feel right" as
+an engineering question with a proof.
+
+### 5 · Public repos — inspectable craft
+
+| Repo | Language | Proof |
+|------|----------|-------|
+| [eslint-plugin-ghost](https://github.com/ghostON3/eslint-plugin-ghost) | TypeScript | 11 architecture-enforcing rules · **94 tests green** |
+| [elo-time-tracker](https://github.com/ghostON3/elo-time-tracker) | Rust | Hyprland IPC → SQLite daemon · **cargo release + 16 tests green** |
+| [elo-evolution-showcase](https://github.com/ghostON3/elo-evolution-showcase) | TypeScript | event sourcing + hash-chain tamper detection · 4 tests green |
+| [ghost-dotfiles](https://github.com/ghostON3/ghost-dotfiles) | Shell/Hypr | Arch + Hyprland workstation as code |
+
+*Why it matters:* every link is open, every repo builds and tests green from a
+clean clone. The fastest way to read me is the code, not this page.
+
+---
 
 Open to senior / staff roles where the bar is real systems work across the
-stack. The fastest way to read me is the code, not this page — start with
-[`eslint-plugin-ghost`](https://github.com/ghostON3/eslint-plugin-ghost) and
-[`ghost-dotfiles`](https://github.com/ghostON3/ghost-dotfiles).
+stack. Start with [`eslint-plugin-ghost`](https://github.com/ghostON3/eslint-plugin-ghost).

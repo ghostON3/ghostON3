@@ -1,0 +1,16 @@
+# Vault — the operator's knowledge substrate
+
+~/elo-vault — 3265 markdown notes, organized into domains:
+
+  00_meta         1462 notes
+  01_Projects        1 notes
+  10_personal       10 notes
+  20_elo-evo       694 notes
+  30_openclaw       22 notes
+  40_infra         136 notes
+  50_research       11 notes
+  60_journal        17 notes
+  80_raw           172 notes
+  90_archive       211 notes
+  90_Daily         151 notes
+  99_Logs            6 notes
