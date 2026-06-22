@@ -1,85 +1,113 @@
 <!--
-  Repo `ghostON3/ghostON3` — GitHub renders this on the profile page.
-  Every image/link below is committed in this public repo or points at a
-  public repo, so it resolves for anyone. No private links, no vibe.
+  GitHub profile README for @ghostON3
+  This file MUST live in a repo named exactly  ghostON3/ghostON3  to render on your profile.
+  See SETUP.md for the 4 commands to publish it.
 -->
 
-# Michal — `ghostON3`
+<!-- ░░░ HERO BANNER ░░░ -->
+<!-- Replace with a wide assets/banner.png render later if desired. -->
+<p align="center">
+  <img src="assets/profile-mockup.png" alt="ghostON3 — AI Engineer & Builder" width="100%" />
+</p>
 
-> I am god in my repository.
+<h1 align="center">Michal Duchoň</h1>
+<p align="center"><b>AI Engineer &amp; Builder</b> — I build intelligent apps, autonomous systems and tools that push the boundaries.</p>
 
-Not a slogan — an operating model. I don't just write code; I run a small
-**world**: a 3,000-note knowledge vault, an autonomous fleet of AI agents that
-ship against my own monorepo, and products that reach across web, desktop,
-mobile, TV and the browser. The frame below has **five angles**. Every one
-resolves to something you can open and inspect — a live repo, a committed
-screenshot, a real count. Proof, not adjectives.
+<p align="center">
+  <code>&gt; AI ENGINEER</code> &nbsp;•&nbsp;
+  <code>&gt; FULL-STACK BUILDER</code> &nbsp;•&nbsp;
+  <code>&gt; PROBLEM SOLVER</code> &nbsp;•&nbsp;
+  <code>&gt; ALWAYS SHIPPING</code>
+</p>
 
-Polyglot (TypeScript · Rust · Python · SQL · Bash), local-first, sovereign by
-default. Done = a capability proven end-to-end and live — never `tsc`-green
-theatre.
-
----
-
-### 1 · The vault — the substrate I think on
-
-[`assets/vault-map.txt`](assets/vault-map.txt) — **3,265 markdown notes** across
-ten domains (meta, projects, research, infra, journal, archive…), an Obsidian
-graph I've kept for years.
-
-*Why it matters:* every decision, spec and post-mortem is written down and
-queryable — and the agent fleet reads from it. The knowledge isn't in my head
-where it dies; it's a substrate the machines operate on.
-
-### 2 · The agentic OS — the world I operate
-
-![Fleet atlas](assets/fleet-atlas.png)
-
-Public proof you can run: [`elo-agent-slots`](https://github.com/ghostON3/elo-agent-slots)
-(agents discover their own work from slots) and
-[`elo-evolution-showcase`](https://github.com/ghostON3/elo-evolution-showcase)
-— **2,200+ PRs shipped by an autonomous agent dark factory**.
-
-*Why it matters:* queue, leases, heartbeats, hash-chained event logs and lint
-rules that fail the build. I'm the conductor, not the runtime — the hard part is
-the machine that keeps a fleet of agents honest without a human as the router.
-
-### 3 · Extensions — reach into every surface
-
-![Local-first AI extension](assets/extension-panel.png)
-
-A Manifest-V3 browser extension that captures conversations from every AI
-service and lets you **ask a local Ollama model — prompts never leave the box**.
-
-*Why it matters:* I don't stop at the web app. When a capability needs to live
-in the browser, the editor, the desktop or the OS, I ship it there — local-first,
-no cloud middleman.
-
-### 4 · Music & dopamine experiments — I tune the feel, not just the function
-
-![Dopamine motion curves](assets/dopamine-motion.png)
-
-Spring/jerk-minimized motion profiles from my animation lab, paired with an
-audio-domain track (music-frequency profiling, attention fragmentation, prosody)
-— prototyping reward and attention, measured, not guessed.
-
-*Why it matters:* senior work isn't only correctness. I instrument the dopamine
-loop — how motion and sound land on a human — and treat "does it feel right" as
-an engineering question with a proof.
-
-### 5 · Public repos — inspectable craft
-
-| Repo | Language | Proof |
-|------|----------|-------|
-| [eslint-plugin-ghost](https://github.com/ghostON3/eslint-plugin-ghost) | TypeScript | 11 architecture-enforcing rules · **94 tests green** |
-| [elo-time-tracker](https://github.com/ghostON3/elo-time-tracker) | Rust | Hyprland IPC → SQLite daemon · **cargo release + 16 tests green** |
-| [elo-evolution-showcase](https://github.com/ghostON3/elo-evolution-showcase) | TypeScript | event sourcing + hash-chain tamper detection · 4 tests green |
-| [ghost-dotfiles](https://github.com/ghostON3/ghost-dotfiles) | Shell/Hypr | Arch + Hyprland workstation as code |
-
-*Why it matters:* every link is open, every repo builds and tests green from a
-clean clone. The fastest way to read me is the code, not this page.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ghostON3&label=Profile%20views&color=8b5cf6&style=flat" alt="profile views" />
+  <img src="https://img.shields.io/badge/Based%20in-Slovakia-8b5cf6?style=flat" alt="location" />
+</p>
 
 ---
 
-Open to senior / staff roles where the bar is real systems work across the
-stack. Start with [`eslint-plugin-ghost`](https://github.com/ghostON3/eslint-plugin-ghost).
+## 🛠 Tech Stack
+
+#### AI / ML
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Anthropic](https://img.shields.io/badge/Anthropic-D4A27F?style=for-the-badge&logo=anthropic&logoColor=black)
+
+#### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+#### Frontend / Desktop
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Electron](https://img.shields.io/badge/Electron-2C2E3B?style=for-the-badge&logo=electron&logoColor=9FEAF9)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+#### Language / Build
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://github.com/ghostON3/elo-evo-electron">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ghostON3&repo=elo-evo-electron&theme=react&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6" />
+      </a>
+      <p>AI evolution platform with real-time visualization.</p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/ghostON3/OpenHands">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ghostON3&repo=OpenHands&theme=react&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6" />
+      </a>
+      <p>Autonomous AI software-engineering agents.</p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/ghostON3/liquid-glass">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ghostON3&repo=liquid-glass&theme=react&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6" />
+      </a>
+      <p>Next-gen UI component library with morphing effects.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ghostON3&show_icons=true&hide_border=true&rank_icon=percentile&theme=react&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6&text_color=c9d1d9" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ghostON3&layout=compact&hide_border=true&theme=react&bg_color=0d1117&title_color=8b5cf6&text_color=c9d1d9&langs_count=6" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ghostON3&hide_border=true&theme=react&background=0d1117&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6" />
+</p>
+
+### 🟩 Contribution Activity
+<p align="center">
+  <!-- Auto-generated by the snake action (see SETUP.md). Falls back to the activity graph below. -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ghostON3&theme=react-dark&hide_border=true&bg_color=0d1117&color=8b5cf6&line=8b5cf6&point=ffffff" width="100%" />
+</p>
+
+---
+
+## 🤝 Let's Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/michalduchon"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://x.com/ghostON3"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="https://michalduchon.com"><img src="https://img.shields.io/badge/Website-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="mailto:ghoston2@proton.me"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=protonmail&logoColor=white" /></a>
+</p>
+
+<p align="center"><i>"Code. Automate. Innovate. Repeat."</i></p>
