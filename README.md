@@ -1,85 +1,86 @@
 <!--
   Repo `ghostON3/ghostON3` — GitHub renders this on the profile page.
-  Every image/link below is committed in this public repo or points at a
-  public repo, so it resolves for anyone. No private links, no vibe.
+  Every image and link below is committed here or points at a public repo,
+  so everything resolves for anyone. No private links.
 -->
 
-# Michal — `ghostON3`
+# Michal Duchoň
 
-> I am god in my repository.
+**Building local-first AI agents, orchestration systems, and privacy-first
+automation.**
 
-Not a slogan — an operating model. I don't just write code; I run a small
-**world**: a 3,000-note knowledge vault, an autonomous fleet of AI agents that
-ship against my own monorepo, and products that reach across web, desktop,
-mobile, TV and the browser. The frame below has **five angles**. Every one
-resolves to something you can open and inspect — a live repo, a committed
-screenshot, a real count. Proof, not adjectives.
+I work on how agent teams can preserve context, coordinate real work, produce
+verifiable artifacts, and stay under meaningful human control. Polyglot —
+TypeScript, Rust, Python, SQL, Bash. Local-first by default.
 
-Polyglot (TypeScript · Rust · Python · SQL · Bash), local-first, sovereign by
-default. Done = a capability proven end-to-end and live — never `tsc`-green
-theatre.
+My working definition of done: a capability proven end-to-end and actually
+consumed by something. Not `tsc`-green, not a passing build with no user.
 
----
+<img
+  src="./assets/elo-agentic-os-concept.png"
+  alt="Concept diagram of an agentic operating system: an execution flow from decision to work, evidence, review and human approval, with supporting panels for agents, memory and artifacts"
+  width="100%"
+/>
 
-### 1 · The vault — the substrate I think on
+> Concept visualization — not a live production dashboard.
 
-[`assets/vault-map.txt`](assets/vault-map.txt) — **3,265 markdown notes** across
-ten domains (meta, projects, research, infra, journal, archive…), an Obsidian
-graph I've kept for years.
+## Start here
 
-*Why it matters:* every decision, spec and post-mortem is written down and
-queryable — and the agent fleet reads from it. The knowledge isn't in my head
-where it dies; it's a substrate the machines operate on.
+| Project | Language | What it is |
+|---|---|---|
+| [**social-toolkit**](https://github.com/ghostON3/social-toolkit) | Python | Read, understand and publish social content. DM harvesting into a structured corpus + a 12-platform posting facade. **91 tests, CI green.** |
+| [**eslint-plugin-ghost**](https://github.com/ghostON3/eslint-plugin-ghost) | TypeScript | 11 architecture-enforcing lint rules that fail the build on boundary violations. **94 tests green.** |
+| [**elo-time-tracker**](https://github.com/ghostON3/elo-time-tracker) | Rust | Per-application focus-time daemon: Hyprland IPC → SQLite, shipped as a systemd unit. |
+| [**elo-evolution-showcase**](https://github.com/ghostON3/elo-evolution-showcase) | TypeScript | Event sourcing with a hash-chained log and tamper detection — the core of the agent platform, extracted to be readable. |
+| [**snap-extract**](https://github.com/ghostON3/snap-extract) | Shell | Screenshot a file tree, get its contents in your clipboard. Local OCR, no cloud. |
+| [**dopamine-git**](https://github.com/ghostON3/dopamine-git) | Shell | A git PATH shim that speaks the repo and branch aloud — catches every agent, script and teammate, because it listens to git rather than to any one tool. |
 
-### 2 · The agentic OS — the world I operate
+Every one is public and runs from a clean clone.
 
-![Fleet atlas](assets/fleet-atlas.png)
+## Selected work
 
-Public proof you can run: [`elo-agent-slots`](https://github.com/ghostON3/elo-agent-slots)
+### Orchestrating a fleet of coding agents
+
+![Fleet atlas — the agent platform's operations view, rendered from fixture data](assets/fleet-atlas.png)
+
+Queues, leases, heartbeats, hash-chained event logs, and lint rules that fail
+the build. The interesting problem is not calling a model — it is the machinery
+that keeps a fleet of agents honest without a human acting as the router.
+
+Runnable pieces of it: [`elo-agent-slots`](https://github.com/ghostON3/elo-agent-slots)
 (agents discover their own work from slots) and
-[`elo-evolution-showcase`](https://github.com/ghostON3/elo-evolution-showcase)
-— **2,200+ PRs shipped by an autonomous agent dark factory**.
+[`elo-evolution-showcase`](https://github.com/ghostON3/elo-evolution-showcase).
 
-*Why it matters:* queue, leases, heartbeats, hash-chained event logs and lint
-rules that fail the build. I'm the conductor, not the runtime — the hard part is
-the machine that keeps a fleet of agents honest without a human as the router.
+### Local-first AI, in the browser
 
-### 3 · Extensions — reach into every surface
+![A browser extension panel that captures AI conversations and answers from a local model](assets/extension-panel.png)
 
-![Local-first AI extension](assets/extension-panel.png)
+A Manifest V3 extension that captures conversations across AI services and
+answers from a **local Ollama model — prompts never leave the machine.** When a
+capability belongs in the browser, the editor or the OS, I ship it there rather
+than forcing it into a web app.
 
-A Manifest-V3 browser extension that captures conversations from every AI
-service and lets you **ask a local Ollama model — prompts never leave the box**.
+### Motion quality as an engineering question
 
-*Why it matters:* I don't stop at the web app. When a capability needs to live
-in the browser, the editor, the desktop or the OS, I ship it there — local-first,
-no cloud middleman.
+![Animation lab grading a motion curve against the minimum-jerk model](assets/dopamine-motion.png)
 
-### 4 · Music & dopamine experiments — I tune the feel, not just the function
+An animation lab that samples a curve into velocity, acceleration and jerk and
+grades it against the minimum-jerk model (Flash & Hogan, 1985) — the trajectory
+natural human movement follows. "Does it feel right" becomes measurable instead
+of a matter of taste.
 
-![Dopamine motion curves](assets/dopamine-motion.png)
+## How I work
 
-Spring/jerk-minimized motion profiles from my animation lab, paired with an
-audio-domain track (music-frequency profiling, attention fragmentation, prosody)
-— prototyping reward and attention, measured, not guessed.
-
-*Why it matters:* senior work isn't only correctness. I instrument the dopamine
-loop — how motion and sound land on a human — and treat "does it feel right" as
-an engineering question with a proof.
-
-### 5 · Public repos — inspectable craft
-
-| Repo | Language | Proof |
-|------|----------|-------|
-| [eslint-plugin-ghost](https://github.com/ghostON3/eslint-plugin-ghost) | TypeScript | 11 architecture-enforcing rules · **94 tests green** |
-| [elo-time-tracker](https://github.com/ghostON3/elo-time-tracker) | Rust | Hyprland IPC → SQLite daemon · **cargo release + 16 tests green** |
-| [elo-evolution-showcase](https://github.com/ghostON3/elo-evolution-showcase) | TypeScript | event sourcing + hash-chain tamper detection · 4 tests green |
-| [ghost-dotfiles](https://github.com/ghostON3/ghost-dotfiles) | Shell/Hypr | Arch + Hyprland workstation as code |
-
-*Why it matters:* every link is open, every repo builds and tests green from a
-clean clone. The fastest way to read me is the code, not this page.
+- Keep private data local by default
+- Require evidence for consequential automation
+- Preserve human control over external actions
+- Build independently useful, composable components
+- Write decisions down: [`assets/vault-map.txt`](assets/vault-map.txt) is a map
+  of the 3,265-note vault the work is planned in
 
 ---
 
 Open to senior / staff roles where the bar is real systems work across the
-stack. Start with [`eslint-plugin-ghost`](https://github.com/ghostON3/eslint-plugin-ghost).
+stack. The fastest way to read me is the code — start with
+[`social-toolkit`](https://github.com/ghostON3/social-toolkit) or
+[`eslint-plugin-ghost`](https://github.com/ghostON3/eslint-plugin-ghost).
